@@ -12,21 +12,11 @@ IMPORTANT: Please make sure that the local host and port number of backend serve
 (3)Third, open your web browser and visit our website via the host and port number of your frontend program. (i.e. 127.0.0.1:3000)
 
 
-##README_BackEnd
-* This is the Readme for Fall 2018 CSE6242 Team Aha backend files
+## BackEnd
 
-************NOTICE***************
-This project does contain scraping programs
-that do not respect some websites' /robots.txt
-We are aware that this is not a good manner and 
-we are not using and will never use those code 
-other than this class project. 
+This project does contain scraping programs that do not respect some websites' /robots.txt. We are aware that this is not a good manner and we are not using and will never use those code other than studying. 
 
-***************IMPORTANT INFORMATION**************
-Execute the programs on large searching range or 
-large number of searches in a short period of time 
-CAN AND WILL RESULT IP BANNED from some websites!
-**************************************************
+Notice: Execute the programs on large searching range or large number of searches in a short period of time CAN AND WILL RESULT IP BANNED from some websites!
 
 There are 11 python files: 
 connectsql.py:				For querying the sqlite storing crime data;
@@ -88,11 +78,9 @@ To execute the project's backend, first fill in your Google API key in line 5 of
 
 
 
-**********************README_frontEnd*****************************
-* This is the Readme for Fall 2018 CSE6242 Team Aha frontend files
-## Live Demo
+## FrontEnd
 
-To see the app, go to [https://cse6242-224423.appspot.com/](https://cse6242-224423.appspot.com/)
+To see the app directly, go to [https://cse6242-224423.appspot.com/](https://cse6242-224423.appspot.com/)
 
 ## Features
 
