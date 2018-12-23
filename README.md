@@ -6,7 +6,8 @@ To run our project locally:
 (1)First, follow the README_BackEnd to run the backend server.
 
 (2)Second, follow the README_FrontEnd to run the front end server.
-## IMPORTANT: Please make sure that the local host and port number of backend server is correctly added to line 25 and line 27 in app.js in FrontEnd directory. (i.e. Postname:127.0.0.1.  Port: 3000)
+
+IMPORTANT: Please make sure that the local host and port number of backend server is correctly added to line 25 and line 27 in app.js in FrontEnd directory. (i.e. Postname:127.0.0.1.  Port: 3000)
 
 (3)Third, open your web browser and visit our website via the host and port number of your frontend program. (i.e. 127.0.0.1:3000)
 
