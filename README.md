@@ -19,17 +19,29 @@ This project does contain scraping programs that do not respect some websites' /
 Notice: Execute the programs on large searching range or large number of searches in a short period of time CAN AND WILL RESULT IP BANNED from some websites!
 
 There are 11 python files: 
+
 connectsql.py:				For querying the sqlite storing crime data;
+
 flaskhelper_revised.py:		Helper functions for main flask app;
+
 google_Distance.py: 		For getting distance between locations using Google Map API; [fill in your API key at '# fill in your API key' before running]
+
 google_Score.py:			For getting place's rating on Google Map using Google Places API; [fill in your API key at '# fill in your API key' before running]
+
 google_Stores.py:			For getting nearby store information using Google Places API; [fill in your API key at '# fill in your API key' before running]
+
 price_as_feature.py:		For handling special price information format for apartments on Zillow;
+
 project_v2.py:				Main flask app; 
+
 scrape_zips.py:				For scraping zip codes within distance from a website; 
+
 yelp_scrape_real_time.py 	For scraping real time yelp data;
+
 zillow_scrape_real_time.py 	For scraping real time zillow data;
+
 crime_data_cleaning.py 		For cleaning the crime dataset; 
+
 
 There is also a folder 'crime_data' containing sqlite dataset storing crime data, original dataset and python file for cleaning the dataset. 
 
@@ -44,10 +56,15 @@ Main scraping python files have their own testing code for testing/debugging (IP
 To run the main flask app 'project_v2.py' on server for public IP address visiting, please uncomment the line 215 and comment line 216. 
 List for flask reroutings: 
 '/test':			return the testing test.json file; 
+
 '/':				return index.html for server debugging purpose only (note that the index.html file is not included, it can be any file ONLY for debugging purpose);
+
 '/apartmentprice'	return formatted prices for apartments on zillow;
+
 '/filters'			return list of found apartments satisfy the given filters; 
-					[example: /filters?address='address'&type=h&beds=1&baths=1&pets=1&parking=1&laundry=1&price=500-1000&rate=3.5&review_count=10&places=xxx,yyy,zzz&travelling=driving&time_limit=20]
+
+[example: /filters?address='address'&type=h&beds=1&baths=1&pets=1&parking=1&laundry=1&price=500-1000&rate=3.5&review_count=10&places=xxx,yyy,zzz&travelling=driving&time_limit=20]
+
 
 The backend files should be in below folder structure for successful running without modifying the code:
 
@@ -110,7 +127,7 @@ or
 node app.js
 ```
 
-### Front-end
+### Front-End Dependencies
 
 * [ejs](http://ejs.co/)
 * [Google Maps APIs](https://developers.google.com/maps/)
