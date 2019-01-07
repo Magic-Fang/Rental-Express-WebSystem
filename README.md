@@ -18,35 +18,6 @@ This project does contain scraping programs that do not respect some websites' /
 
 Notice: Execute the programs on large searching range or large number of searches in a short period of time CAN AND WILL RESULT IP BANNED from some websites!
 
-There are 11 python files: 
-
-connectsql.py:				For querying the sqlite storing crime data;
-
-flaskhelper_revised.py:		Helper functions for main flask app;
-
-google_Distance.py: 		For getting distance between locations using Google Map API; [fill in your API key at '# fill in your API key' before running]
-
-google_Score.py:			For getting place's rating on Google Map using Google Places API; [fill in your API key at '# fill in your API key' before running]
-
-google_Stores.py:			For getting nearby store information using Google Places API; [fill in your API key at '# fill in your API key' before running]
-
-price_as_feature.py:		For handling special price information format for apartments on Zillow;
-
-project_v2.py:				Main flask app; 
-
-scrape_zips.py:				For scraping zip codes within distance from a website; 
-
-yelp_scrape_real_time.py 	For scraping real time yelp data;
-
-zillow_scrape_real_time.py 	For scraping real time zillow data;
-
-crime_data_cleaning.py 		For cleaning the crime dataset; 
-
-
-There is also a folder 'crime_data' containing sqlite dataset storing crime data, original dataset and python file for cleaning the dataset. 
-
-There is also a file 'test.json' containing a example/testing json file returned by backend. 
-
 Main scraping python files have their own testing code for testing/debugging (IP banned issue or other cases). To get specific run instruction, execute:
 
 	$ python yelp_scrape_real_time.py -help
